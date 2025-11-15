@@ -23,20 +23,6 @@ android {
         exclude 'META-INF/LICENSE'
         exclude 'META-INF/DEPENDENCIES'
     }
-    signingConfigs {
-        release {
-            keyAlias 'phone1'
-            keyPassword '654321'
-            storeFile file('D:\\签名文件\\phone.jks')
-            storePassword '123456'
-        }
-        debug {
-            keyAlias 'phone1'
-            keyPassword '654321'
-            storeFile file('D:\\签名文件\\phone.jks')
-            storePassword '123456'
-        }
-    }
 
     splits.abi {
         enable true
